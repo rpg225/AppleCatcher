@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Catcher</title>
+  </head>
+  <body>
+    <header>
+      <p>Phaser Apple Catcher</p>
+    </header>
+    <main>
+      <canvas id="gameCanvas">
+
+      </canvas>
+      <div id="gameStartDiv" class="gameUI">
+      <h1>Apple Catcher</h1>
+      <p>You have 30 seconds to catch the Apple</p>
+      <p>If you catch more than 10 apples you win</p>
+      <p>Less than 10, You lose!</p>
+      <p>Click Start to begin</p>
+      <button id="gameStartButton">Start</button>
+      </div>
+      
+      <div id="gameEndDiv" class="gameUI">
+        <p id="textContent">Game Over</p>
+        <h1>You <span id="gameWinLoseSpan"></span></h1>
+        <h1>Final Score <span id="gameEndScoreSpan"></span></h1>
+        <p>Refresh to play again</p>
+      </div>
+    </main>
+    <footer>
+      Made by Rambod
+    </footer>
+    <script type="module" src="/main.js"> </script>
+  </body>
+</html>
